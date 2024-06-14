@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example",
+    "module": "EntityService",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "EntityService-0.0.1-SNAPSHOT-plain.jar",
+          "url": "EntityService-0.0.1-SNAPSHOT-plain.jar",
+          "size": 11153,
+          "sha512": "3253d40484b8ae7cc99aeae7cb9b6fb9560c1e79b82f191a71a1e2eef60943aec726a52bcbd9d49ca34b2609df00eb832b7538b781cffb1182768ffae3fe4009",
+          "sha256": "72dab5073b143ddc33a93349e021815debf8a8b5d651f65e16c781a3eb52c5c8",
+          "sha1": "cc0f9c7b84e267222863455d18ce4b857bf4e634",
+          "md5": "d1474b939becb1c099dc5a550bbb8d6f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa"
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-mysql",
+          "version": {
+            "requires": "8.4.4"
+          }
+        },
+        {
+          "group": "com.mysql",
+          "module": "mysql-connector-j"
+        }
+      ],
+      "files": [
+        {
+          "name": "EntityService-0.0.1-SNAPSHOT-plain.jar",
+          "url": "EntityService-0.0.1-SNAPSHOT-plain.jar",
+          "size": 11153,
+          "sha512": "3253d40484b8ae7cc99aeae7cb9b6fb9560c1e79b82f191a71a1e2eef60943aec726a52bcbd9d49ca34b2609df00eb832b7538b781cffb1182768ffae3fe4009",
+          "sha256": "72dab5073b143ddc33a93349e021815debf8a8b5d651f65e16c781a3eb52c5c8",
+          "sha1": "cc0f9c7b84e267222863455d18ce4b857bf4e634",
+          "md5": "d1474b939becb1c099dc5a550bbb8d6f"
+        }
+      ]
+    }
+  ]
+}
